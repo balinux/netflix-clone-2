@@ -2,8 +2,8 @@ import React from 'react'
 
 function Header() {
   return (
-    <header className=''>
-      <div>
+    <header>
+      <div className='flex items-center space-x-2 md:space-x-10'>
       <img
           src="https://rb.gy/ulxxee"
           width={100}
@@ -11,12 +11,12 @@ function Header() {
           className="cursor-pointer object-contain"
         />
 
-        <ul>
-          <li>Home</li>
-          <li>Tv Shows</li>
-          <li>Movies</li>
-          <li>New popular</li>
-          <li>My List</li>
+        <ul className='hidden space-x-4 md:flex'>
+          <li className='headerLink'>Home</li>
+          <li className='headerLink'>Tv Shows</li>
+          <li className='headerLink'>Movies</li>
+          <li className='headerLink'>New popular</li>
+          <li className='headerLink'>My List</li>
         </ul>
       </div>
     </header>
