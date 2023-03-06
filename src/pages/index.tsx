@@ -19,7 +19,7 @@ export default function Home() {
       <main>
         <Banner/>
         <section>
-          <div className=' items-center'>tes</div>
+          {/* <div className=' items-center'>tes</div> */}
         </section>
       </main>
     </div>
